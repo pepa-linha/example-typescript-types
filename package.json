@@ -1,0 +1,22 @@
+{
+  "name": "example-typescript-types",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/webpack-dev-server",
+    "dev-server-hot": "node_modules/.bin/webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.40",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.2.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
